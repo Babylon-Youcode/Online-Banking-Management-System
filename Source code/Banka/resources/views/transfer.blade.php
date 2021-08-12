@@ -53,16 +53,13 @@
       </nav>
    
 
-
-
-
            
          <div class="row container">
              <div class="col-8"></div>
          
       <div class="col-4"><br><br>
       
-                       <h3 class="text-center">Tansfer</h3>
+                       <h3 class="text-center">Transfer</h3>
                    <br>
                  
                                        <form action="/transfer" method="post" enctype="multipart/form-data">

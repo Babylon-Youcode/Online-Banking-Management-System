@@ -91,66 +91,8 @@
            </div>
         </div>
      </div>
-
-      <!-- end header -->
-      <!-- banner -->
-      {{-- <div class="container mt-5">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header text-center"><h2 >Contact Now</h2></div>
     
-                    <div class="card-body">
-                        <form method="POST" action="">
-                            @csrf
-                            <div class="form-group ">
-                                <label for="email" class="col-md-4 col-form-label">Name</label>
-    
-                                    <input id="email" type="text" class="form-control " name="name"  required autocomplete="email">
-    
-                              
-                            </div>
-    
-                            <div class="form-group ">
-                                <label for="password" class="col-md-4 col-form-label">Email</label>
-    
-                                
-                                    <input  type="text" class="form-control " name="Email" required autocomplete="new-password">
-    
-                  
-                              
-                            </div>
-    
-                            <div class="form-group ">
-                                <label for="password-confirm" class="col-md-4 col-form-label">Phone number</label>
-    
-                              
-                                    <input  type="text" class="form-control" name="number" required autocomplete="new-password">
-                             
-                            </div>
-                            <div class="form-group ">
-                                <label for="password-confirm" class="col-md-4 col-form-label">Messege</label>
-    
-                             
-                                    <textarea class="form-control" name="messege" id="" cols="30" rows="5"></textarea>
-                                    
-                              
-                            </div>
-    
-    
-                            <div class="form-group row mb-0">
-                             
-                                    <button type="submit" class="btn btn-primary form-control">
-                                      Send
-                                    </button>
-                               
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
+     
     <!------------------->
     <section class="contact-us">
       <div class="container ">
@@ -182,11 +124,13 @@
                       <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Envoyer</button>
                   </form>
               </div>
-              <div class="col-lg-4 col-md-12 bgc" >
-                  <div class="call-info  ">
+              <div class="col-lg-4 col-md-12 "  >
+                 
+                  <h3>DÉTAILS DU CONTACT</h3>
+                  <div class="call-info text-light rounded  " style="background-image:url(images/capture.PNG); height:365px;" >
                      
-                      <h3>DÉTAILS DU CONTACT</h3>
-                      <p class="mb-5">Veuillez trouver ci-dessous les coordonnées et contactez-nous dès aujourd'hui! </p>
+                     
+                      <p class="mb-5 text-center my-3 gap-3">Veuillez trouver ci-dessous les coordonnées et contactez-nous dès aujourd'hui! </p>
                       <ul>
                           <li>
                               <div class="info">

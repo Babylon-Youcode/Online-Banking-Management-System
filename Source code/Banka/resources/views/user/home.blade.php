@@ -2,19 +2,6 @@
    
 @section('content')
 
-{{-- <div class="container">
-    
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
-                <div class="card-body">
-                    You are Admin.
-                </div>
-            </div>
-        </div>
-    </div>
-</div> --}}
 
 <div class="container-fluid ">
     <div class="row">
@@ -97,7 +84,7 @@
                   <span>Admins</span>
               </div>
               <div>
-                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <i class="fas fa-user-shield"></i>
               </div>
           </div>
 
@@ -107,7 +94,7 @@
                   <span>Users</span>
               </div>
               <div>
-                  <i class="far fa-shapes"></i>
+                <i class="fas fa-users"></i>
               </div>
           </div>
 
@@ -117,7 +104,7 @@
                   <span>transferts</span>
               </div>
               <div>
-                  <i class="far fa-question-circle"></i>
+                <i class="fas fa-exchange-alt"></i>
               </div>
           </div>
 
@@ -156,7 +143,7 @@
 
 
 
-
+      <div style="height: 434px"></div>
         
  {{-- -------------- --}}
 </main>
