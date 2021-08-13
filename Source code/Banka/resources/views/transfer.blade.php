@@ -65,7 +65,7 @@
                                        <form action="/transfer" method="post" enctype="multipart/form-data">
                           @csrf
                           <div class="form-group">
-                                <label>Amount</label>
+                                <label>Amount DH</label>
                                 <input type="number" class="form-control" name="amount" required >
                              </div>
                              <div class="form-group">
