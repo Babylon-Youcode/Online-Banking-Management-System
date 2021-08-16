@@ -99,11 +99,9 @@
           <div class="property-location mb-5">
               <h3 class="m-3">NOTRE EMPLACEMENT</h3>
               <div class="divider-fade"></div>
-                  <section
-                      id="map"  class="mb-3 mx-auto"  style="
-                      bottom: 0;
-                      height: 387px;" ref="map">
-                  </section>
+            
+<iframe src="https://embed.waze.com/iframe?zoom=16&lat=32.247715&lon=-8.521813&ct=livemap" width="100%" height="300" allowfullscreen></iframe>
+     {{--              --}}
           </div>
           <div class="row">
               <div class="col-lg-8 col-md-12">
@@ -203,23 +201,7 @@
       </footer>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-      <!-- end footer -->
-      <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key="></script>
-      <script >
-      showLocationOnTheMap()
-        function showLocationOnTheMap() {
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 15,
-                    center: new google.maps.LatLng(32.22441941916041,-8.554518450556523),
-                    mapTypeId: google.maps.MapTypeId.ROADMAP,
-                });
-                new google.maps.Marker({
-                    position: new google.maps.LatLng(32.22441941916041,-8.554518450556523),
-                    title:this.annonce.title,
-                    map: map,
-                });
-            }
-      </script>
+    
    </body>
 </html>
 

@@ -30,7 +30,7 @@
          </div>
         <nav class="navbar  shadow-sm bg-white">
             <div class="container-fluid ">
-              <a class="navbar-brand"><img src="images/logo.png" style="width: 180px" alt="#" /></a>
+              <a class="navbar-brand" href="{{ url('/') }}"><img src="images/logo.png" style="width: 180px" alt="#" /></a>
               <form class="d-flex">
                 @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
