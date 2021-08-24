@@ -57,7 +57,7 @@
             <h2>Name  : <span class="ml-5 pl-4">{{ Auth::user()->name }}</span></h2><br>
             <h2>Email :<span class="ml-5 pl-4">{{ Auth::user()->email }}</span></h2>
             <br>
-            <h2>Rip   :<span class="ml-5 pl-5">{{ Auth::user()->rip }}</span></h2>
+            <h2>Rib   :<span class="ml-5 pl-5">{{ Auth::user()->rip }}</span></h2>
 
           </div>
             <img class="w-75 col-3" src="/images/{{ Auth::user()->image }}" alt="">
